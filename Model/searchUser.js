@@ -15,7 +15,6 @@ const userSchema = new mongoose.Schema({
         unique: true,
         validate: {
             validator: function(value) {
-                // Simple email validation regex
                 return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
             },
             message: props => `${props.value} is not a valid email address!`
@@ -27,7 +26,6 @@ const userSchema = new mongoose.Schema({
         unique: true,
         validate: {
             validator: function(value) {
-                // Simple 10-digit number validation
                 return /^\d{10}$/.test(value);
             },
             message: props => `${props.value} is not a valid 10-digit number!`
@@ -49,7 +47,6 @@ const userSchema = new mongoose.Schema({
             required: true,
             validate: {
                 validator: function(value) {
-                    // Simple pincode validation
                     return /^\d{4,6}$/.test(value);
                 },
                 message: props => `${props.value} is not a valid pincode!`
@@ -71,10 +68,9 @@ const userSchema = new mongoose.Schema({
     }]
 });
 
-// Create User model
 const userModel = mongoose.model('User', userSchema);
 
-module.exports = userModel;
+export default userModel;
 
 
 
