@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const User = require("./Model/searchUser"); // Changed from 'user' to 'User'
+const User = require("./Model/searchUser"); 
 
 const app = express();
 app.use(express.json());
