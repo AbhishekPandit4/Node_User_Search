@@ -12,3 +12,20 @@ git clone https://github.com/AbhishekPandit4/React_Anime.git
 
 
 
+2.go to folder /Task-2
+
+3.run beow commands
+
+
+
+```bash
+npm init -y
+
+
+```bash
+npm install
+
+
+```bash
+npm start
+
