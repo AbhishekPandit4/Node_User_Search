@@ -1,7 +1,7 @@
 const mongoose=require("mongoose")
 
 
-// Define user schema
+
 const userSchema = new mongoose.Schema({
     firstName: {
         type: String,
