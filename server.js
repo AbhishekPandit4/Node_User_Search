@@ -1,7 +1,7 @@
 import express from "express"
 import mongoose from "mongoose";
 import cors from "cors"
-import User from "./Model/searchUser"
+import User from "./Model/searchUser.js"
 
 const app = express();
 app.use(express.json());
