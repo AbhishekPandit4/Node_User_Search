@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import userModel from '../Model/searchUser.js'
+import userModel from '../../Model/searchUser.js'
 const connectDB = async () => {
   try {
     await mongoose.connect('mongodb://0.0.0.0:27017/', {
