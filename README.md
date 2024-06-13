@@ -28,10 +28,13 @@ npm init -y
 ```bash
 npm install
 ```
-![Screenshot (96)(1)](https://github.com/AbhishekPandit4/Node_User_Search/assets/171127612/c516daa6-14c3-4097-8280-35a716ff8848)
+![Screenshot (96)(1)](https://github.com/AbhishekPandit4/Node_User_Search/assets/171127612/7c13891c-3b4f-4ef9-b556-97aaf1adfb36)
+
 
 ```bash
 npm start
 ```
-![Screenshot (98)(1)](https://github.com/AbhishekPandit4/Node_User_Search/assets/171127612/43488c92-bf80-4c6d-9cbb-a4978e5db94a)
+![Screenshot (98)(1)](https://github.com/AbhishekPandit4/Node_User_Search/assets/171127612/3bd29c82-559a-47d2-ae13-65ec265a328a)
+
+
 
