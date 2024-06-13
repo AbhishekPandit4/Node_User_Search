@@ -1,6 +1,6 @@
 import express from express
 import mongoose from "mongoose";
-import cors from cors
+import cors from "cors"
 import User from "./Model/searchUser"
 
 const app = express();
