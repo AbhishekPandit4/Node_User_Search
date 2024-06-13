@@ -1,7 +1,7 @@
-const express = require("express");
-const mongoose = require("mongoose");
-const cors = require("cors");
-const User = require("./Model/searchUser"); 
+import express from express
+import mongoose from "mongoose";
+import cors from cors
+import User from "./Model/searchUser"
 
 const app = express();
 app.use(express.json());
