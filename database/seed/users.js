@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import faker from 'faker';
-import userModel from '../Model/searchUser.js'
+import userModel from '../../Model/searchUser.js'
 
 mongoose.connect('mongodb://0.0.0.0:27017/test_migrations');
 
